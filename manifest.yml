@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: carl011
+  host: carl011
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - App ID-j0wnylv5
